@@ -1,0 +1,58 @@
+*{
+	//font-family:Source Sans Pro;	
+}
+.primeira-bolinha, .segunda-bolinha, .terceira-bolinha, .quarta-bolinha, 
+.quinta-bolinha, .sexta-bolinha, .setima-bolinha, .oitava-bolinha,
+.nona-bolinha, .decima-bolinha, .decima-primeira-bolinha,.decima-segunda-bolinha {
+	color:rgb(251,251,251);
+}
+
+.fonte-amarelo {
+	color: rgb(243,197,0);
+	font-family:Source Sans Pro ;
+}
+.fonte-verde {
+	color:rgb(1,161,133);
+	font-family:Source Sans Pro ;
+}
+
+.fonte-preta{
+	color:black;
+}
+
+
+.texto-imagem {
+	color:#fff;
+	text-align:center;
+}
+
+.texto-imagem h1{
+	font-family:Source Sans Pro;
+}
+
+.texto-imagem p{
+	font-family:Source Sans Pro;
+	text-align:center;
+}
+
+.texto-app{
+	color: white;
+	font-size:0.7em;
+}
+
+.texto-app h3{
+	font-size:2em;
+}
+
+.menu-inferior {
+	font-size:0.9em;
+	font-family:Source Sans Pro;
+}
+
+h2{
+	color:rgb(89,194,175);
+}
+
+.linha-verde{
+	color:rgb(89,194,175);
+}
