@@ -65,6 +65,11 @@
 	margin: 10px 0;
 }
 
+.texto-e-imagem{
+	margin:10px auto;
+	width: 85%;
+}
+
 .texto{
 	position: absolute;
 	top: 85px;
@@ -95,6 +100,14 @@
 	top:20px;
 	margin:45px;
 }
+
+.texto-app p {
+	width: 400px;
+}
+.app-google, .app-apple{
+	width:100px;
+}
+
 .celular{
 	height:250px;
 	width:200px;
@@ -102,29 +115,28 @@
 	top:20px;
 	margin:40px 40px 0 30px;
 }
-.texto-app p {
-	width: 400px;
-}
-.app-google, .app-apple{
-	width:100px;
-}
-.texto-e-imagem{
-	margin:10px 20px;
-}
 footer{
+	clear:left;
+	width: 100%;
+	padding: 20px 0;
 	display:table;
+	position: relative;
 }
 
-.menu-inferior {
+.mapa-site {
 	float:left;
-	margin-left:180px;
-	position: relative;
-	top:-100px;
+	clear: left;
+	width: 100%;
 	display: table;
 }
-		
-.linha-verde{
-	color:rgb(89,194,175);
+.mapa-site section {	
+	width: 85%;
+	margin: 0 auto; 
+}
+.mapa-site article {
+	float: left;
+	width: 25%;
+
 }
 			
 			
@@ -157,28 +169,40 @@ footer{
 			clear:left;
 			}
 			
-			.faixa-cinza{
-			margin-left:120px;
-			height:80px;
-			width:1030px;
-			background-color: rgb(60,61,65);
-			}
+.faixa-cinza{
+	background-color: rgb(60,61,65);
+}
 			
-			footer h2{
-			text-align:center;
-			font-family:Source Sans Pro;
-			}
 			
-			footer {
-			text-align:center;
 			
-			}
-			footer p{
-			color:rgb(151,151,151);
-			padding:10px;
-			font-family:Source Sans Pro;
-			}
+footer p{
+	color:rgb(151,151,151);
+	padding:10px;
+	font-family:Source Sans Pro;
+}
 
+footer div {
+	position: absolute; 
+	height: 3px; 
+	top: 55px; 
+	border-bottom: 1px solid grey; 
+	float: left; 
+	width: 40%;
+	
+}
+footer div:nth-child(1){
+	left: 50px;
+}
+footer div:nth-child(3){
+	right: 50px;	
+} 
+
+footer h2{
+	text-align:center;
+	font-family:Source Sans Pro;
+background-color: rgb(60,61,65);
+	z-index: 999;
+}
 
 .primeira-bolinha {
 	background-color:rgb(221,9,8);
