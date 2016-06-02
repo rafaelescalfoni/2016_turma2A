@@ -1,0 +1,134 @@
+span{
+
+}
+h1{
+	display:inline;
+	width:100px;
+	margin:0;
+}
+.fonte-amarelo {
+	color: rgb(243,197,0);
+	font-family:Source Sans Pro ;
+}
+.fonte-verde {
+	color:rgb(1,161,133);
+	font-family:Source Sans Pro ;
+}
+.banner{
+height:300px;
+width:1050px;
+}
+#My-Account{
+background-color:rgb(1,161,133);
+color:rgb(255,255,255);
+padding:5px;
+}
+nav ul{
+color:rgb(118,109,118);
+
+
+}
+nav{
+	float: right;
+	margin:20px 0 0 0;
+}
+.menu-superior ul li{
+display:inline;
+width:10px;
+font-family:Source Sans Pro ;
+}
+
+.primeiro-celular{
+	width: 150px;
+	heigth: 150px;
+}
+.segundo-celular{
+	width: 150px;
+	heigth: 150px;
+}
+.terceiro-celular{
+	width: 150px;
+	heigth: 150px;
+}
+.quarto-celular{
+	width: 150px;
+	heigth: 150px;
+}
+
+.img {	
+	position: relative;
+	display: table;
+	border:#f5f5f5 solid 1px;
+	padding:0px;
+	background-color:#fff;
+	float:left;
+	margin: 50px;
+	
+	}
+
+
+figcaption {
+	width:150px;
+}
+
+.celulares{
+margin-left:80px;
+
+}
+
+.celulares h2{
+font-family:Source Sans Pro;
+text-align:center;
+font-size:2.5em;
+margin-left:-100px;
+}
+
+.celulares p{
+font-family:Source Sans Pro;
+font-size:1.3em;
+text-align:left;
+}
+
+.secao-celulares{
+float:left;
+width:200px;
+margin:5px;
+margin-left:40px;
+
+}
+.primeira-seta{
+margin-bottom:-310px;
+
+}
+.segunda-seta{
+margin-bottom:-280px;
+margin-left:80px;
+}
+
+.preco{
+background-color: rgb(89,194,175);
+width:60px;
+height:25px;
+float: right;
+}
+.triangulo{
+background-color: rgb(89,194,175);
+-webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+width:7px;
+display:table;
+position:relative;
+right: -53px;
+top: -11px;
+height:7px;
+}
+#tri3{
+ position:relative;
+ top:24px;
+}
+.preco p{
+color:white;
+text-align:center;
+}
+
+
+
