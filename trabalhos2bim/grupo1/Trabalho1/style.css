@@ -1,0 +1,181 @@
+body {
+  font-family: Sans-Serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+header{
+  background-color: white;
+  height: 100px;
+}
+
+.conteudo {
+	margin: auto;
+    width:686px;
+    background-color: #ffffff;
+    color: #808080;
+}
+
+.imagemConteudo {
+    width:686px;
+    height:355px;
+    background-image: url(figura1.png);
+    position:relative;
+}
+
+.imagemFonte {
+    color: white;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+    position:relative;
+    margin: auto;
+    clear: right;
+    bottom: 160px;
+}
+
+.entreTexto {
+	width:686px;
+  height:33px;
+  background-color: #333333;
+  padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.entreTextoFonte {
+	text-align: left;
+	font-size: 150%;
+	color: white;
+  padding-left: 60px;
+  float: left;
+  position: absolute;
+}
+
+.entreTextoDivBotao {
+	padding-right: 60px;
+	float: right;
+}
+
+.entreTextoBotao {
+    background-color: #008fb3;
+    border: none;
+    color: white;
+    padding: 2px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 120%;
+    cursor: pointer;
+
+}
+
+.titulo{
+    padding-left: 20px;
+    text-align: left;
+    font-size: 210%;
+}
+
+.floatleft {
+    float:left;
+    width:300px;
+}
+
+.floatright {
+    float:right;
+    width:300px;
+}
+
+.cabecaFonte {
+    color:gray;
+    margin-top:0;
+    padding-top: 0px;
+    height: 55px;
+    position:relative;
+    top:15px;
+
+    }
+.logo {
+  position:relative;
+  top:-60px;
+  left:100px;
+
+  }
+.cabecaFonte2{
+  color:gray;
+  position:relative;
+  top:-102px;
+  font-size:2em;
+  font-family: Arial;
+    }
+.nave{
+  width:500px;
+
+  float:right;
+  position:relative;
+  bottom:180px;
+  padding-right: 50px;
+}
+
+.li1{
+  list-style-type:none;
+  text-decoration:none;
+  border-right: 1px solid black;
+  padding-right:7px;
+  }
+
+span{
+  color:#66B2FF;
+}
+
+.li2{
+  list-style-type:none;
+  text-decoration:none;
+  display:inline;
+  border-right: 1px solid black;
+  padding-right:9px;
+}
+
+.li3{
+  list-style-type:none;
+  text-decoration:none;
+  display:inline;
+  color: black;
+  padding-right:9px;
+}
+
+footer {
+    margin: auto;
+    width:686px;
+    padding-left: 35px;
+    font-size: 12pt;
+    padding-top: 5px;
+    color: #808080;
+  }
+
+  a:link, a:visited, a:hover {
+  color:black;
+  text-decoration:none;
+  }
+
+  .rentais{
+  	text-align: right;
+      width:300px;
+      position: absolute;
+  }
+
+.texto {
+    text-align: left;
+    margin: auto;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 270px;
+}
+
+.services{
+	text-align: left;
+	width:300px;
+  position: absolute;
+}
