@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  background-color: rgb(239, 238, 238);
+  font-family: Arial;
+}
+.container{
+  width: 928px;
+  margin: 0 auto;
+  background-color:white;
+  display: table;[]
+}
+header ul li{
+  display: inline;
+  float: left;
+  font-size: 15px;
+}
+header ul{
+  float: right;
+  padding: 0;
+  display: inline;
+  margin-top: 50px;
+  padding-right: 40px;
+}
+header ul li :hover{
+  background-color: rgb(181, 32, 37);
+  color: white;
+}
+header img{
+  float: left;
+  padding: 20px 0 20px 30px;
+}
+header a{
+  text-decoration: none;
+  color: black;
+  display: table;
+  padding: 10px;
+}
+.footer p{
+  display: inline;
+  float: left;
+}
+.footer li{
+  display: inline;
+  float: left;
+  margin-right: 7px;
+}
+.footer ul{
+  list-style: none;
+  float: right;
+}
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+.footer p, .footer a{
+  font-size: 13px;
+}
+.footer p:first-child{
+  border-right: 1px outset rgb(237, 242, 247);
+  padding-right: 2px;
+  margin-right: 2px;
+}
+footer{
+  border-top: 3px solid rgb(237, 242, 247);
+}
+.borda{
+  background: linear-gradient(rgb(238,238,238),white);
+  border-radius: 20px 20px 0 0;
+  margin: 0 auto;
+  width: 928px;
+  height: 30px;
+  display: table;
+}
+.formulario, .stories{
+  margin: 0 15px;
+}
+.formulario p,.formulario label, .stories p{
+  font-size: 13px;
+}
+.formulario form{
+  padding: 50px;
+  border: 1px solid rgb(226, 199, 200);
+}
+.formulario input[type="text"], .formulario input[type="email"]{
+  margin: 15px;
+  background-color: rgb(253, 234, 235);
+  border: 1px solid rgb(226, 199, 200);
+  width: 300px;
+  height: 30px;
+}
+.site{
+  margin-right: 25px;
+}
+.testemunho{
+  font-style: italic;
+  border-bottom: 1px solid rgb(235,235,235);
+}
+.formulario input[type="submit"]{
+  float: right;
+  border: none;
+  margin-right: 50px;
+  padding: 5px 10px;
+  background-color: rgb(181, 32, 37);
+  color: white;
+}
+.formulario textarea{
+  position: relative;
+  right: -80px;
+}
+.adress{
+  margin-left: -10px;
+  position: absolute;
+}
+.formulario textarea{
+  margin: 15px;
+  background-color: rgb(253, 234, 235);
+  border: 1px solid rgb(226, 199, 200);
+}
+.formulario h1, .formulario label , .stories h1{
+  color: rgb(181, 32, 37);
+  font-weight: bold;
+}
+.formulario{
+  float: left;
+  width: 550px;
+}
+.stories{
+  width: 300px;
+  float: right;
+}
