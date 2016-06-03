@@ -1,0 +1,38 @@
+@font-face {
+    font-family: squary;
+    src: url(../font/harabara.otf);
+}
+center, h3, h1, strong {
+    font-family: squary;
+}
+p {
+    font-family: sans-serif;
+}
+#parte1 section:nth-child(2) {
+    color: #fff;
+    font-size: 20px;
+}
+#parte2 section:first-child h3 {
+    color: #fff;
+    font-size: 26.5px;
+}
+#parte2 section:first-child p {
+    color: #676666;
+}
+#parte2 section:first-child strong {
+    color: #fff;
+}
+#parte2 section:last-child p:first-child {
+    font-size: 22px;
+    color: #fff;
+}
+#parte2 section:last-child p:last-child {
+    font-size: 22px;
+    color: #000;
+}
+footer li:first-child, footer li:nth-child(2) {
+    font-size: 15px;
+}
+footer a {
+    color: #000;
+}

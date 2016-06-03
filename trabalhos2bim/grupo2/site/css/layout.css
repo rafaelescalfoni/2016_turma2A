@@ -1,0 +1,114 @@
+#conteudo {
+    width: 50%;
+    margin: 0 auto;
+}
+header div {
+    border-bottom: 2px solid #000;
+}
+header img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding-bottom: 43px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+nav li {
+    float: left;
+    padding: 1px 60px;
+}
+.espacamento {
+    border-right: 2px solid #000;
+}
+main section {
+    padding: 2px 3px;
+}
+#parte1 {
+    float: left;
+}
+#parte1 section:first-child img {
+    height: 524px;
+}
+#parte1 section:nth-child(2) {
+    width: 620px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#parte1 section:nth-child(3) div:first-child {
+    float: left;
+}
+#parte1 section:nth-child(3) div:last-child {
+    margin-left: 3px;
+    display: inline;
+}
+#parte1 section:nth-child(3) div img {
+    height: 275px;
+}
+#parte2 {
+    width: 330px;
+    margin-left: 629px;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+#parte2 section:first-child {
+    padding-bottom: 35px;
+}
+#parte2 section:first-child h3 {
+    padding-top: 5px;
+    padding-left: 17px;
+}
+#parte2 section:first-child p {
+    width: 277px;
+    padding-left: 17px;
+    padding-bottom: 15px;
+}
+#parte2 section:first-child strong {
+    border-top: 1px solid #d1d1d1;
+    padding-top: 17px;
+    padding-left: 17px;
+    width: 120px;
+}
+#parte2 section:nth-child(2) {
+    padding-top: 6px;
+}
+#parte2 section:nth-child(2) img {
+    height: 433px;
+    margin-left: -4px;
+}
+#parte2 section:last-child {
+    width: 324px;
+    height: 151.5px;
+}
+#parte2 section:last-child div {
+    padding: 0 72px;
+}
+#parte2 section:last-child p:last-child {
+    margin-top: -20px;
+    border-top: 1px solid #d1d1d1;
+    padding-top: 20px;
+}
+hr {
+    margin-top: 55px;
+}
+footer {
+    width: 54%;
+    margin: auto;
+}
+footer ul {
+    list-style-type: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0 auto;
+}
+footer li:first-child, footer li:nth-child(2) {
+    float: left;
+    padding-right: 148px;
+}
+footer li:last-child {
+    margin-top: -5px;
+}
+footer img {
+    height: 30px;
+}
