@@ -1,0 +1,232 @@
+body{
+  margin: 0;
+  padding-top: 20px;
+  background-color: rgb(0, 27, 39);
+  font-family: sans-serif;
+}
+nav ul li{
+  display: inline;
+  list-style: none;
+  padding: 0 20px;
+}
+nav ul li:last-child{
+  padding-right:0;
+}
+.container{
+  margin: 20px 300px 0 300px;
+  background-color: white;
+  display: table;
+}
+.container-fim{
+  margin: 15px 300px 30px 300px;
+  color: white;
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+.container-fim a{
+  color: white;
+}
+main{
+  padding: 0 20px 0 20px;
+}
+.container-header{
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  display: table;
+  text-align: center;
+}
+header{
+  display: table;
+  width: 1023px;
+}
+ul a{
+  color: rgb(255,255,255);
+}
+header h1{
+  display: inline;
+  text-transform: uppercase;
+  float: left;
+  margin: 0;
+}
+header h1:first-child{
+  color: white;
+  padding-right: 10px;
+}
+header h1 span{
+  color: rgb(0, 152, 228);
+}
+header nav{
+  float:left;
+}
+header nav ul{
+  margin: 10px 0 0 0;
+}
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+
+}
+header nav ul li a span{
+  color: rgb(0, 152, 228);
+}
+.principal img{
+  height: 400px;
+  width: 100%;
+  position: relative;
+  top: -15px;
+  box-sizing: border-box;
+}
+.titulo-main{
+  position: relative;
+  top: 130px;
+  z-index: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 40px;
+  color: white;
+}
+.titulo-main h1{
+  font-size: 60px;
+}
+.titulo-main p{
+  width: 40%;
+}
+.titulo-main h1, .titulo-main p{
+  padding-left: 60px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.box{
+  width: 325px;
+  height: 250px;
+  float: left;
+  margin-right: 20px;
+  background-color: rgb(0,98,153);
+  /*padding: 25px 0;*/
+}
+#lastbox{
+  font-size: 20px;
+  margin-right: 0;
+}
+.box p{
+  text-align: justify;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.box h1{
+  text-transform: uppercase;
+}
+.box h1, .box p{
+  padding: 0 25px;
+  color: white;
+}
+.box button a{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.container-box{
+  margin-bottom: 25px;
+  display: table;
+}
+.container-prefooter{
+  margin-bottom: 15px;
+  display: table;
+}
+.container-prefooter h1, .container-prefooter figure, .container-prefooter p{
+  margin: 0;
+  margin-bottom: 10px;
+}
+.box button{
+  background-color:rgb(0,172,234) ;
+  border: solid 1px rgb(0,172,234);
+  margin-left: 25px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.conquiste_o_mundo figcaption {
+  font-size: 0.8em;
+  margin-left: 100px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
+.figura-predio {
+  float: left;
+  width: 270px;
+  height: 200px;
+}
+.conquiste_o_mundo{
+  display: table;
+  float: left;
+}
+.conquiste_o_mundo h1{
+  text-transform: uppercase;
+}
+.saiba-mais a{
+margin-left: 20px;
+text-decoration: none;
+}
+.conquiste_o_mundo a{
+  color:rgb(41, 116, 150);
+}
+.depoimento-box {
+  width: 270px;
+  height: 120px;
+  background-color: rgb(204, 236, 255);
+  float: right;
+  font-size: 18px;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+.triangulo{
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+  height: 10px;
+  width: 18px;
+  background-color: rgb(204, 236, 255);
+  display: table;
+  position: relative;
+  top: -40px;
+  right: -20px;
+}
+.depoimento{
+  float: right;
+  margin-left: 140px;
+}
+footer ul{
+  display: table;
+  list-style: none;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+footer a{
+  text-decoration: none;
+}
+footer nav{
+  padding: 10px;
+  background-color: rgb(204, 236, 255);
+}
+footer a{
+  color:rgb(41, 116, 150);
+  font-size: 12px;
+}
+footer span:first-child{
+  color: black;
+}
+footer{
+  width: 100%;
+}
+ul{
+  margin: 0;
+}
+footer ul li {
+  padding: 20px;
+}
+body img{
+  width: 15px;
+}
